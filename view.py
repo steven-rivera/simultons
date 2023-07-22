@@ -22,7 +22,7 @@ controller.object_button(frame,text="Ball")      .pack(side=LEFT)
 controller.object_button(frame,text="Black_Hole").pack(side=LEFT)
 controller.object_button(frame,text="Pulsator")  .pack(side=LEFT)
 controller.object_button(frame,text="Hunter")    .pack(side=LEFT)
-controller.object_button(frame,text="Special")   .pack(side=LEFT)
+# controller.object_button(frame,text="Special")   .pack(side=LEFT)
 controller.object_button(frame,text="Remove")    .pack(side=LEFT)
 controller.progress     (frame,text="0 updates/0 simultons",width=25,relief=RAISED).pack(side=LEFT)
  
