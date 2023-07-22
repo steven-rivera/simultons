@@ -39,4 +39,9 @@ class Hunter(Pulsator, Mobile_Simulton):
             self.set_angle(atan2(dif_y, dif_x))
         
         self.move()
+
+    def display(self,canvas):
+        x,y = self.get_location()
+        w,h = self.get_dimension()
+        canvas.create_oval(x - (w / 2), y - (h / 2), x + (w / 2), y + (h / 2), fill='#FF0000')
                     

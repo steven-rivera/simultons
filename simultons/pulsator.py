@@ -32,5 +32,10 @@ class Pulsator(Black_Hole):
             for _ in range(len(s)):
                 w,h = self.get_dimension()
                 self.set_dimension(w+1, h+1)
+    
+    def display(self,canvas):
+        x,y = self.get_location()
+        w,h = self.get_dimension()
+        canvas.create_oval(x - (w / 2), y - (h / 2), x + (w / 2), y + (h / 2), fill='#00FF00')
                      
     
