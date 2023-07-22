@@ -6,7 +6,7 @@ This program simulates 'simultons'. A Simulton is an abstract base class that is
     <img src="gif/simultons-gif.gif" width="400">
 </div>
 
-## Simultons Types
+## Simulton Types
 
 | Simulton   | Properties                                                                                                                                                              |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
