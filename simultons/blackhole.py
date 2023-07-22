@@ -7,8 +7,8 @@
 #   containment and displaying) will facilitate
 #   inheritance in Pulsator and Hunter
 
-from simulton import Simulton
-from prey import Prey
+from simultons.simulton import Simulton
+from simultons.prey import Prey
 
 
 class Black_Hole(Simulton):

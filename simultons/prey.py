@@ -2,7 +2,7 @@
 #   recognize whether an object is descended from Prey
 
 
-from mobilesimulton import Mobile_Simulton
+from simultons.mobilesimulton import Mobile_Simulton
 
 
 class Prey(Mobile_Simulton): 

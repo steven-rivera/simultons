@@ -5,7 +5,7 @@
 #   as a Black_Hole but with varying dimensions
 
 
-from blackhole import Black_Hole
+from simultons.blackhole import Black_Hole
 
 
 class Pulsator(Black_Hole): 

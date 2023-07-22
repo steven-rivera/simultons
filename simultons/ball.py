@@ -3,7 +3,7 @@
 #   of 5 (width/height 10).
 
 
-from prey import Prey
+from simultons.prey import Prey
 import random
 import math
 

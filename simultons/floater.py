@@ -6,7 +6,7 @@
 
 
 #from PIL.ImageTk import PhotoImage
-from prey import Prey
+from simultons.prey import Prey
 import random
 import math
 

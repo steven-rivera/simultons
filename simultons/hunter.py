@@ -3,9 +3,9 @@
 #   a straight line or in pursuit of Prey), like its Mobile_Simultion base.
 
 
-from prey import Prey
-from pulsator import Pulsator
-from mobilesimulton import Mobile_Simulton
+from simultons.prey import Prey
+from simultons.pulsator import Pulsator
+from simultons.mobilesimulton import Mobile_Simulton
 from math import atan2
 import random, math
 

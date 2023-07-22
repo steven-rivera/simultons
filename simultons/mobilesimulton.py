@@ -31,7 +31,7 @@
 
 
 import math,random
-from simulton import Simulton
+from simultons.simulton import Simulton
 import model
 
 

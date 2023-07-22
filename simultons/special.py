@@ -2,7 +2,7 @@
 #but annihilates itself and Prey when they come 
 #into contact with each other 
  
-from prey import Prey
+from simultons.prey import Prey
 import random
 from math import pi
 
