@@ -47,10 +47,10 @@ def progress  (parent,**config):
 
 
 # By the script calling this function, the update_all/display_all in the model
-#   is called every 100 milliseconds in the GUI's/root thread, and then this
-#   function reschedules itself to be called in 100 milliseconds
-# This makes the simulation update itself every .1 seconds
+#   is called every 20 milliseconds in the GUI's/root thread, and then this
+#   function reschedules itself to be called in 20 milliseconds
+# This makes the simulation update itself every .02 seconds
 def repeater(root):
     model.update_all()
     model.display_all()
-    root.after(10,repeater,root)
+    root.after(20,repeater,root)
