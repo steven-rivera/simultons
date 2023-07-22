@@ -2,6 +2,9 @@
 
 This program simulates 'simultons'. A Simulton is an abstract base class that is inherited by all other objects. There are two types of simultons, predator simultons and prey simultons. Predator simultons 'eat' prey simultons when they come into contact with one another. Users can add or remove any simultons at any point in the simulation. The simulation can be run continously at a rate of 100 cylces per seconds or can be steped through one cycle at a time 
 
+<div align="center">
+    <img src="gif/simultons-gif.gif" width="400">
+</div>
 
 ## Simultons Types
 
