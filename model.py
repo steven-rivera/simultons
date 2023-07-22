@@ -3,12 +3,12 @@ import model   # Use to pass a reference to this module when calling update in u
 
 #Use the reference to this module to pass it to update methods
 
-from ball      import Ball
-from floater   import Floater
-from blackhole import Black_Hole
-from pulsator  import Pulsator
-from hunter    import Hunter
-from special   import Special 
+from simultons.ball      import Ball
+from simultons.floater   import Floater
+from simultons.blackhole import Black_Hole
+from simultons.pulsator  import Pulsator
+from simultons.hunter    import Hunter
+from simultons.special   import Special 
 
 
 # Global variables: declare them global in functions that assign to them: e.g., ... = or +=
