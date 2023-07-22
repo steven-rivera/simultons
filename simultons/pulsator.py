@@ -9,7 +9,7 @@ from simultons.blackhole import Black_Hole
 
 
 class Pulsator(Black_Hole): 
-    hunger = 30
+    hunger = 50
     
     def __init__(self, x, y):
         self.counter = 0
@@ -22,10 +22,10 @@ class Pulsator(Black_Hole):
             self.counter += 1
             if self.counter == Pulsator.hunger:
                 w,h = self.get_dimension()
-                if w == 1 and h == 1:
+                if w < 10 and h < 10:
                     model.garbage.add(self)
                 else:    
-                    self.set_dimension(w-1, h-1)
+                    self.set_dimension(w-5, h-5)
                     self.counter = 0
         else:
             self.counter = 0
